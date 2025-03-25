@@ -1,15 +1,15 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "back-to-the-past",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "通过快捷键方式快速返回上次观看的位置 | Quickly return to the last viewed position using keyboard shortcuts",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": ["obsidian-plugin", "obsidian", "back", "history"],
+	"author": "HOWILLMAKEIT",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
@@ -20,5 +20,12 @@
 		"obsidian": "latest",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HOWILLMAKEIT/back-to-the-past"
+	},
+	"funding": {
+		"url": "https://github.com/sponsors/HOWILLMAKEIT"
 	}
 }

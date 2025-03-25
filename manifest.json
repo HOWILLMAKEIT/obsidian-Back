@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "back-to-the-past",
+	"name": "Go Back",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "通过快捷键方式快速返回上次观看的位置 | Quickly return to the last viewed position using keyboard shortcuts",
+	"author": "HOWILLMAKEIT",
+	"authorUrl": "https://github.com/HOWILLMAKEIT",
+	"fundingUrl": "https://github.com/sponsors/HOWILLMAKEIT",
 	"isDesktopOnly": false
 }
